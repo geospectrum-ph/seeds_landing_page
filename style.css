@@ -1,0 +1,1301 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #888;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#scrollUp {
+	bottom: 15px;
+	right: 15px;
+	padding: 10px 20px;
+	background: #2b8608;
+	color: #fff;
+	font-size: 25px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	padding: 0;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px #00000026;
+}
+
+#scrollUp:hover {
+	background: #2C2D3F;
+}
+
+
+/*===================
+	Start Header CSS 
+=====================*/
+.header {
+	background-color: #fff;
+	position: relative;
+}
+
+.header .navbar-collapse {
+	padding: 0;
+}
+
+
+.header .header-inner {
+	background: #fff;
+	z-index: 999;
+	width: 100%;
+}
+
+.get-quote {
+	margin-top: 12px;
+}
+
+.get-quote .btn {
+	color: #fff;
+}
+
+.header .logo {
+	float: left;
+	margin-top: 18px;
+}
+
+.header .navbar {
+	background: none;
+	box-shadow: none;
+	border: none;
+	margin: 0;
+	height: 0px;
+	min-height: 0px;
+}
+
+.header .nav li {
+	margin-right: 15px;
+	float: left;
+	position: relative;
+}
+
+.header .nav li:last-child {
+	margin: 0;
+}
+
+.header .nav li a {
+	color: #2C2D3F;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	padding: 25px 12px;
+	position: relative;
+	display: inline-block;
+	position: relative;
+}
+
+.header .nav li a::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 0%;
+	background: #2b8608;
+	border-radius: 5px 5px 0 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.header .nav li.active a:before {
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+.header .nav li.active a {
+	color: #000000;
+}
+
+.header .nav li:hover a:before {
+	opacity: 1;
+	width: 100%;
+	visibility: visible;
+}
+
+.header .nav li:hover a {
+	color: #2b8608;
+}
+
+.header .nav li a i {
+	display: inline-block;
+	margin-left: 1px;
+	font-size: 13px;
+}
+
+/* Middle Header */
+.header.style2 .header-inner {
+	border-top: 1px solid #eee;
+}
+
+.header.style2 .logo {
+	margin-top: 6px;
+}
+
+.header .middle-header {
+	background: #fff;
+	padding: 20px 0px;
+}
+
+.header .widget-main {
+	float: right;
+}
+
+.header.style2 .get-quote {
+	margin-top: 0;
+}
+
+.header .single-widget {
+	position: relative;
+	float: left;
+	margin-right: 30px;
+	padding-left: 55px;
+}
+
+/* Header Sticky */
+.header.sticky .header-inner {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	bottom: initial;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	animation: fadeInDown 0.5s both 0.1s;
+	box-shadow: 0px 0px 13px #00000054;
+}
+
+/*=========================
+	End Header CSS
+===========================*/
+
+/*===========================
+	Start Slider Area CSS
+=============================*/
+.slider .single-slider {
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.slider .single-slider .text {
+	margin-top: 120px;
+}
+
+.slider.index2 .single-slider .text {
+	margin-top: 150px;
+}
+
+.slider .single-slider h1 {
+	color: #2C2D3F;
+	font-size: 38px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	line-height: 42px;
+}
+
+.slider .single-slider h1 span {
+	color: #2b8608;
+}
+
+.slider .single-slider p {
+	color: #2C2D3F;
+	margin-top: 27px;
+	font-weight: 400;
+}
+
+.slider .single-slider .button {
+	margin-top: 30px;
+}
+
+.slider .single-slider .btn {
+	color: #fff;
+	background: #2b8608;
+	font-weight: 500;
+	display: inline-block;
+	margin: 0;
+	margin-right: 10px;
+}
+
+.slider .single-slider .btn:last-child {
+	margin: 0;
+}
+
+.slider .single-slider .btn.primary {
+	background: #2C2D3F;
+	color: #fff;
+}
+
+.slider .single-slider .btn.primary:before {
+	background: #2b8608;
+}
+
+.slider .owl-carousel .owl-nav {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin-top: -25px;
+}
+
+.slider .owl-carousel .owl-nav div {
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #2b8608;
+	color: #fff;
+	font-size: 26px;
+	position: absolute;
+	margin: 0;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	padding: 0;
+	border-radius: 50%;
+}
+
+.slider .owl-carousel .owl-nav div:hover {
+	background: #2C2D3F;
+	color: #fff;
+}
+
+.slider .owl-carousel .owl-controls .owl-nav .owl-prev {
+	left: 20px;
+}
+
+.slider .owl-carousel .owl-controls .owl-nav .owl-next {
+	right: 20px;
+}
+
+/* Slider Animation */
+.owl-item.active .single-slider h1 {
+	animation: fadeInUp 1s both 0.6s;
+}
+
+.owl-item.active .single-slider p {
+	animation: fadeInUp 1s both 1s;
+}
+
+.owl-item.active .single-slider .button {
+	animation: fadeInDown 1s both 1.5s;
+}
+
+/*===========================
+	End Slider Area CSS
+=============================*/
+
+
+/*=============================
+	Start Feautes CSS
+===============================*/
+.Feautes {
+	padding-top: 0;
+}
+
+
+.Feautes .single-features {
+	text-align: center;
+	position: relative;
+	padding: 10px 20px;
+}
+
+.Feautes .single-features::before {
+	position: absolute;
+	content: "";
+	right: -72px;
+	top: 60px;
+	width: 118px;
+	border-bottom: 3px dotted #2b8608;
+}
+
+.Feautes .single-features.last::before {
+	display: none;
+}
+
+.Feautes .single-features .signle-icon {
+	position: relative;
+}
+
+.Feautes .single-features .signle-icon i {
+	font-size: 50px;
+	color: #2b8608;
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	top: 0;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	border-radius: 100%;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.Feautes .single-features:hover .signle-icon i {
+	background: #2b8608;
+	color: #fff;
+	border-color: transparent;
+}
+
+.Feautes .single-features h3 {
+	padding-top: 128px;
+	color: #2C2D3F;
+	font-weight: 600;
+	font-size: 21px;
+}
+
+.Feautes .single-features p {
+	margin-top: 20px;
+}
+
+/*=============================
+	End Feautes CSS
+===============================*/
+
+/*=======================
+	Start Fun Facts CSS
+=========================*/
+.fun-facts {
+	position: relative;
+}
+
+.fun-facts.section {
+	padding: 120px 0;
+}
+
+.fun-facts {
+	background: url('img/fun-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.fun-facts .single-fun {}
+
+.fun-facts .single-fun i {
+	position: absolute;
+	left: 0;
+	font-size: 62px;
+	color: #fff;
+	height: 70px;
+	width: 70px;
+	line-height: 67px;
+	font-size: 28px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	border: 2px solid #fff;
+	border-radius: 0px;
+	top: 50%;
+	margin-top: -35px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	border-radius: 50%;
+}
+
+.fun-facts .single-fun:hover i {
+	color: #2b8608;
+	background: #fff;
+	border-color: transparent;
+}
+
+.fun-facts .single-fun .content {
+	padding-left: 80px;
+}
+
+.fun-facts .single-fun span {
+	color: #fff;
+	font-weight: 600;
+	font-size: 30px;
+	position: relative;
+	display: block;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s eas;
+	display: block;
+	margin-bottom: 7px;
+}
+
+.fun-facts .single-fun p {
+	color: #fff;
+	font-size: 15px;
+}
+
+/*===================
+	End Fun Facts
+=====================*/
+
+/*===================
+	Why choose CSS
+=====================*/
+.why-choose .choose-left h3 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #2C2D3F;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 24px;
+}
+
+.why-choose .choose-left h3:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 50px;
+	background: #2b8608;
+}
+
+.why-choose .choose-left p {
+	margin-bottom: 35px;
+}
+
+.why-choose .choose-left .list {}
+
+.why-choose .choose-left .list li {
+	color: #868686;
+	margin-bottom: 12px;
+}
+
+.why-choose .choose-left .list li:last-child {
+	margin-bottom: 0px;
+}
+
+.why-choose .choose-left .list li i {
+	height: 15px;
+	width: 15px;
+	line-height: 15px;
+	text-align: center;
+	background: #2b8608;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 100%;
+	padding-left: 2px;
+	margin-right: 16px;
+}
+
+/* Start Faq CSS */
+.why-choose {
+	background: #fff;
+}
+
+.why-choose .choose-right {
+	height: 100%;
+	width: 100%;
+	background-image: url('img/Untitled-1.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.why-choose .choose-right .video {
+	color: #fff;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	text-align: center;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -35px;
+	margin-top: -35px;
+	font-size: 21px;
+	background: #2b8608;
+	padding-left: 4px;
+}
+
+.why-choose .choose-right .video:hover {
+	transform: scale(1.1);
+}
+
+.why-choose .video-image .waves-block .waves {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	border-radius: 100%;
+	-webkit-animation: waves 3s ease-in-out infinite;
+	animation: waves 3s ease-in-out infinite;
+	left: 50%;
+	margin-left: -100px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.why-choose .video-image .waves-block .wave-1 {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+
+.why-choose .video-image .waves-block .wave-2 {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.why-choose .video-image .waves-block .wave-3 {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+/*=======================
+	End Why choose CSS
+=========================*/
+
+/*===============================
+	Start Call to action CSS
+=================================*/
+.call-action {
+	background-image: url('img/call-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.call-action .content {
+	text-align: center;
+	padding: 100px 265px;
+}
+
+.call-action .content h2 {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 46px;
+}
+
+.call-action .content p {
+	color: #fff;
+	margin: 30px 0px;
+	font-size: 15px;
+}
+
+.call-action .content .btn {
+	background: #fff;
+	margin-right: 20px;
+	font-weight: 500;
+	border: 1px solid #fff;
+	color: #2b8608;
+}
+
+.call-action .content .btn:before {
+	background: #2b8608;
+}
+
+.call-action .content .btn:hover {
+	background: #2b8608;
+	color: #fff;
+}
+
+.call-action .content .btn:last-child {
+	margin-right: 0px;
+}
+
+.call-action .content .second {
+	border: 1px solid #fff;
+	color: #fff;
+	background: transparent;
+	color: #fff !important;
+}
+
+.call-action .content .second:before {
+	background: #fff;
+}
+
+.call-action .content .second:hover {
+	color: #2b8608;
+	border-color: transparent;
+	background: #fff;
+}
+
+.call-action .content .second i {
+	margin-left: 10px;
+}
+
+/*=========================
+	Srart service CSS
+===========================*/
+.services .single-service {
+	margin: 30px 0;
+	position: relative;
+	padding-left: 70px;
+}
+
+.services .single-service i {
+	font-size: 45px;
+	color: #2b8608;
+	position: absolute;
+	left: 0;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.services .single-service h4 {
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	color: #2C2D3F;
+}
+
+.services .single-service h4 a {
+	color: #2C2D3F;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.services .single-service h4 a:hover {
+	color: #2b8608;
+}
+
+.services .single-service p {
+	color: #868686;
+}
+
+/*-- Service Details --*/
+.services-details-img {
+	margin-bottom: 50px;
+}
+
+.services-details-img img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.services-details-img h2 {
+	font-weight: 600;
+	font-size: 28px;
+	margin-bottom: 16px;
+}
+
+.services-details-img P {
+	margin-bottom: 20px;
+}
+
+.services-details-img blockquote {
+	font-size: 15px;
+	color: #4a6f8a;
+	background-color: #2b8608;
+	padding: 30px 75px;
+	line-height: 26px;
+	position: relative;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.services-details-img blockquote i {
+	position: absolute;
+	display: inline-block;
+	top: 20px;
+	left: 38px;
+	font-size: 32px;
+}
+
+.service-details-inner-left {
+	background-image: url("img/signup-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.service-details-inner-left img {
+	display: none;
+}
+
+.service-details-inner {
+	max-width: 580px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.service-details-inner h2 {
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 15px;
+	border-left: 3px solid #2b8608;
+	padding-left: 15px;
+}
+
+.service-details-inner p {
+	margin-bottom: 15px;
+}
+
+.service-details-inner p:last-child {
+	margin-bottom: 0;
+}
+
+/*=========================
+	End service CSS
+===========================*/
+
+
+/*=============================
+	Start Pricing Table CSS
+===============================*/
+.pricing-table {
+	background: #f1f1f1;
+	position: relative;
+}
+
+.pricing-table .single-table {
+	background: #fff;
+	border: 1px solid #ddd;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	margin: 15px 0;
+	padding: 45px 35px 30px 35px;
+}
+
+/* Table Head */
+.pricing-table .single-table .table-head {
+	text-align: center;
+}
+
+.pricing-table .single-table .icon i {
+	font-size: 65px;
+	color: #2b8608;
+}
+
+.pricing-table .single-table .title {
+	font-size: 21px;
+	color: #2C2D3F;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.pricing-table .single-table .amount {
+	font-size: 36px;
+	font-weight: 600;
+	color: #2b8608;
+}
+
+.pricing-table .single-table .amount span {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #868686;
+	margin-left: 8px;
+}
+
+/* Table List */
+.pricing-table .single-table .table-list {
+	padding: 10px 0;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.pricing-table .table-list li {
+	position: relative;
+	color: #666;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	padding-right: 32px;
+}
+
+.pricing-table .table-list li:last-child {
+	margin-bottom: 0px;
+}
+
+.pricing-table .table-list li.cross i {
+	background: #aaaaaa;
+}
+
+/* Smooth scrolling for anchor links */
+
+.pricing-table .table-list i {
+	font-size: 7px;
+	text-align: center;
+	margin-right: 10px;
+	position: absolute;
+	right: 0;
+	height: 16px;
+	width: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #fff;
+	background: #2b8608;
+	border-radius: 100%;
+	padding-left: 1px;
+}
+
+/* Table Bottom */
+.pricing-table .table-bottom {
+	margin-top: 25px;
+}
+
+.pricing-table .btn {
+	padding: 12px 25px;
+	width: 100%;
+	color: #fff;
+}
+
+.pricing-table .btn:before {
+	background: #2C2D3F;
+}
+
+.pricing-table .btn:hover {
+	color: #fff;
+}
+
+.pricing-table .btn i {
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+/*=============================
+	End Pricing Table CSS
+===============================*/
+
+/*==========================
+	Start Appointment CSS
+============================*/
+.appointment {
+	background: #fff;
+	padding-top: 100px;
+}
+
+.appointment.single-page {
+	background: #fff;
+	padding-top: 100px 0;
+	padding: 0;
+	padding: 100px 0;
+}
+
+.appointment.single-page .appointment-inner {
+	padding: 40px;
+	box-shadow: 0px 0px 10px #00000024;
+	border-radius: 5px;
+}
+
+.appointment.single-page .title {}
+
+.appointment.single-page .title h3 {
+	font-size: 25px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.appointment.single-page .title p {}
+
+.appointment .form {
+	margin-top: 30px;
+}
+
+.appointment .form .form-group {}
+
+.appointment .form input {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #eee;
+	text-transform: capitalize;
+	padding: 0px 18px;
+	color: #555;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 0;
+	border-radius: 4px;
+}
+
+.appointment .form textarea {
+	width: 100%;
+	height: 200px;
+	padding: 18px;
+	border: 1px solid #eee;
+	text-transform: capitalize;
+	resize: none;
+	border-radius: 4px;
+}
+
+.appointment .form-group .nice-select {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #eee;
+	text-transform: capitalize;
+	padding: 0px 18px;
+	color: #999;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 4px;
+	font-weight: 400;
+}
+
+.appointment .form-group .nice-select::after {
+	right: 20px;
+	color: #757575;
+}
+
+.appointment .form-group .list {
+	border-radius: 4px;
+}
+
+.appointment .form-group .list li {
+	color: #757575;
+	border-radius: 0;
+}
+
+.appointment .form-group .list li.selected {
+	color: #757575;
+	font-weight: 400;
+}
+
+.appointment .form-group .list li:hover {
+	color: #fff;
+	background: #2b8608;
+}
+
+.appointment .appointment-image {}
+
+.appointment.single-page .button .btn {
+	width: 100%;
+}
+
+.appointment .button .btn {
+	font-weight: 500;
+}
+
+.appointment .button .btn:hover {
+	color: #fff;
+}
+
+.appointment .form p {
+	margin-top: 10px;
+	color: #868686;
+}
+
+.appointment.single-page .work-hour {
+	background: #2b8608;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #00000024;
+	border-radius: 5px;
+}
+
+.appointment.single-page .work-hour h3 {
+	font-size: 25px;
+	display: block;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.appointment.single-page .time-sidual {
+	margin-top: 15px;
+}
+
+.appointment.single-page .time-sidual {
+	overflow: hidden;
+}
+
+.appointment.single-page .time-sidual li {
+	display: block;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.appointment.single-page .time-sidual li span {
+	display: inline-block;
+	float: right;
+}
+
+.appointment.single-page .day-head .time {
+	font-weight: 400;
+	float: right;
+}
+
+/*==========================
+	End Appointment CSS
+============================*/
+
+
+/*===========================
+	Start Mail Success CSS
+=============================*/
+.mail-seccess {
+	text-align: center;
+	background: #fff;
+	border-top: 1px solid #eee;
+}
+
+.mail-seccess .success-inner {
+	display: inline-block;
+}
+
+.mail-seccess .success-inner h1 {
+	font-size: 100px;
+	text-shadow: 3px 5px 2px #3333;
+	color: #2b8608;
+	font-weight: 700;
+}
+
+.mail-seccess .success-inner h1 span {
+	display: block;
+	font-size: 25px;
+	color: #333;
+	font-weight: 600;
+	text-shadow: none;
+	margin-top: 20px;
+}
+
+.mail-seccess .success-inner p {
+	padding: 20px 15px;
+}
+
+.mail-seccess .success-inner .btn {
+	color: #fff;
+}
+
+/*===========================
+	End Mail Success CSS
+=============================*/
+
+
+/*=========================
+	Start Footer CSS
+===========================*/
+.footer {
+	position: relative;
+}
+
+.footer .footer-top {
+	padding: 100px 0px;
+	position: relative;
+	background: #2b8608;
+}
+
+.footer .footer-top:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	opacity: 0.1;
+}
+
+.footer .single-footer {}
+
+.footer .single-footer .social {
+	margin-top: 25px;
+}
+
+.footer .single-footer .social li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer .single-footer .social li:last-child {
+	margin-right: 0px;
+}
+
+.footer .single-footer .social li a {
+	height: 34px;
+	width: 34px;
+	line-height: 34px;
+	text-align: center;
+	border: 1px solid #fff;
+	text-align: center;
+	padding: 0;
+	border-radius: 100%;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+}
+
+.footer .single-footer .social li a:hover {
+	color: #2b8608;
+	background: #fff;
+	border-color: transparent;
+}
+
+.footer .single-footer .social li a i {}
+
+.footer .single-footer.f-link li a i {
+	margin-right: 10px;
+}
+
+.footer .single-footer.f-link li {
+	display: block;
+	margin-bottom: 12px;
+}
+
+.footer .single-footer.f-link li:last-child {
+	margin: 0;
+}
+
+.footer .single-footer.f-link li a {
+	display: block;
+	color: #fff;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-weight: 400;
+}
+
+.footer .single-footer.f-link li a:hover {
+	padding-left: 8px;
+}
+
+.footer .single-footer h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.footer .single-footer h2::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0px;
+	height: 3px;
+	width: 50px;
+	background: #fff;
+}
+
+.footer .single-footer .time-sidual {
+	margin-top: 15px;
+}
+
+.footer .single-footer .time-sidual {
+	overflow: hidden;
+}
+
+.footer .single-footer .time-sidual li {
+	display: block;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.footer .single-footer .time-sidual li span {
+	display: inline-block;
+	float: right;
+}
+
+.footer .single-footer .day-head .time {
+	font-weight: 400;
+	float: right;
+}
+
+.footer .single-footer p {
+	color: #fff;
+}
+
+.footer .single-footer .newsletter-inner {
+	margin-top: 20px;
+	position: relative;
+}
+
+.footer .single-footer .newsletter-inner input {
+	background: transparent;
+	border: 1px solid #fff;
+	height: 50px;
+	line-height: 42px;
+	width: 100%;
+	margin-right: 15px;
+	color: #fff;
+	padding-left: 18px;
+	padding-right: 70px;
+	display: inline-block;
+	float: left;
+	border-radius: 0px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-weight: 400;
+	border-radius: 5px;
+}
+
+.footer .single-footer .newsletter-inner input:hover {
+	padding-left: 22px;
+}
+
+.footer input::-webkit-input-placeholder {
+	opacity: 1;
+	color: #fff !important;
+}
+
+.footer input::-moz-placeholder {
+	opacity: 1;
+	color: #fff !important;
+}
+
+.footer input::-ms-input-placeholder {
+	opacity: 1;
+	color: #fff !important;
+}
+
+.footer input::input-placeholder {
+	opacity: 1;
+	color: #fff !important;
+}
+
+.footer .single-footer .newsletter-inner .button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	background: #fff;
+	border-left: 1px solid #fff;
+	text-shadow: none;
+	box-shadow: none;
+	display: inline-block;
+	border-radius: 0px;
+	border: none;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	border-radius: 0 5px 5px 0;
+	color: #2b8608;
+	font-size: 25px;
+}
+
+.footer .single-footer .newsletter-inner .button i {
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.footer .single-footer .newsletter-inner .button:hover i {
+	color: #2C2D3F;
+}
+
+
+/*=========================
+	End Footer CSS
+===========================*/
